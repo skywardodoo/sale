@@ -41,7 +41,7 @@
                     </t>
                 </t>
             </t>
-            <t t-else="">
+            <t t-if="!props.record.data.stock_by_location">
                 <tr>
                     <td>No stock available</td>
                 </tr>
